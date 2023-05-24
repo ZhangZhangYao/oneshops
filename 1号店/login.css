@@ -1,0 +1,439 @@
+/*load.css*/
+
+/* 重置样式 */
+
+body,
+html,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+    color: #999;
+    font-size: 14px;
+}
+
+input {
+    outline: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cf:before,
+.cf:after {
+    display: table;
+    content: " ";
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+/*公共部分*/
+
+body {
+    background: #fcfcfc;
+}
+
+
+/*head部分*/
+
+#headNav {
+    padding: 16px;
+    background: #FFF;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.innerNav {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
+
+#headNav img {
+    display: block;
+    height: 55px;
+    width: auto;
+}
+
+.headFont span,
+.headFont a {
+    line-height: 18px;
+    font-family: "SimSun";
+    font-size: 12px;
+    color: #999;
+    vertical-align: middle;
+}
+
+.headFont span a {
+    color: #06c;
+}
+
+.headFont span a:hover {
+    color: #f60;
+}
+
+.headFont>a {
+    margin-left: 25px;
+    color: #E60012;
+}
+
+.headFont>a {
+    margin-left: 25px;
+    color: #333;
+}
+
+.runbun,
+.turnb {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+
+.runbun {
+    background: url(./images/runbun.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.turnb {
+    background: url(./images/turnb.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.helpLink {
+    color: #333;
+    font-size: 12px;
+}
+
+.helpLink:hover {
+    color: #E60012;
+}
+
+.outHelp {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 98px;
+    padding-top: 25px;
+    border: 1px solid #CCC;
+}
+
+.helpYou {
+    background: #fff;
+}
+
+.helpYou li a {
+    height: 24px;
+    display: block;
+    padding-left: 25px;
+    border-top: 1px dotted #e4e4e4;
+    background: #FFF;
+    line-height: 24px;
+    color: #333;
+}
+
+.helpYou li a:hover {
+    color: #E60012;
+}
+
+
+/*按钮*/
+
+.tableBtn {
+    width: 330px;
+    height: 52px;
+    border: 0 none;
+    border-radius: 3px;
+    background: #ff3c3c;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #ff7373;
+    font-family: "Microsoft YaHei";
+    line-height: 52px;
+}
+
+
+/*foot部分*/
+
+#footNav {
+    width: 980px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+#footNav p {
+    margin-top: 10px;
+    color: #333;
+}
+
+#footNav p a {
+    padding: 0 6px;
+    color: #333;
+}
+
+#footNav p a:hover {
+    color: #c00;
+}
+/*内容部分*/
+
+#secBody {
+    padding-top: 26px;
+    background: #fcfcfc;
+    padding-bottom: 30px;
+}
+
+.innerBody {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.tableWrap {
+    width: 330px;
+    padding-top: 46px;
+}
+
+.tableTap h3 {
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.tableTap a {
+    color: #06c;
+    line-height: 30px;
+}
+
+.tableTap a:hover {
+    color: #f60;
+    line-height: 30px;
+}
+
+.tableItem {
+    position: relative;
+    z-index: 100;
+    height: 24px;
+    margin: 20px 0 0px;
+    padding: 13px 18px;
+    border: 1px solid #dedede;
+    background: #FFF;
+    line-height: 24px;
+}
+.psp{
+    margin-top: 10px;
+    color: red;
+}
+.usp{
+    margin-top: 10px;
+    color: red;
+}
+.userHead {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(./images/userHead.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.userLock {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(./images/lock.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.tableItem input {
+    vertical-align: middle;
+    width: 230px;
+    height: 24px;
+    padding-left: 20px;
+    border: 0 none;
+    line-height: 24px;
+    vertical-align: middle;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    outline: none;
+}
+
+.tableAuto {
+    padding-top: 4px;
+    margin: 0 0 14px;
+}
+
+.tableAuto a {
+    color: #999;
+}
+
+.autoMatic {
+    display: block;
+    width: 100px;
+}
+
+.loadGiet {
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 1px solid #999;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.autoMatic:hover .loadGiet {
+    border: 1px solid #f60;
+}
+
+.moreWeb {
+    padding: 15px 0;
+    color: #666;
+}
+
+.outType {
+    height: 35px;
+    line-height: 35px;
+}
+
+.loadMore {
+    height: 35px;
+    line-height: 35px;
+    color: #999;
+}
+
+.loadMore {
+    vertical-align: middle;
+}
+
+.loadType {
+    overflow: hidden;
+    clear: both;
+}
+
+.loadType li a {
+    display: inline-block;
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.loadType li:nth-of-type(1) a {
+    background: url(./images/qqf.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadType li:nth-of-type(2) a {
+    background: url(./images/wbf.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadType li:nth-of-type(3) a {
+    background: url(./images/zhif.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadType li:nth-of-type(4) a {
+    background: url(./images/wxf.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadType li:nth-of-type(1):hover a {
+    background: url(./images/qqt.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadType li:nth-of-type(2):hover a {
+    background: url(./images/wbt.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadType li:nth-of-type(3):hover a {
+    background: url(./images/zhit.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadType li:nth-of-type(4):hover a {
+    background: url(./images/wxt.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadMore i {
+    margin-left: 5px;
+    width: 18px;
+    height: 14px;
+    display: inline-block;
+    background: url(../images/loadMore.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.typeWeb {
+    margin-top: 15px;
+    display: none;
+}
+
+.typeWeb li {
+    width: 82px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.typeWeb li i {
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../images/bdf.png) no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.typeWeb li a {
+    color: #999;
+    vertical-align: middle;
+}
